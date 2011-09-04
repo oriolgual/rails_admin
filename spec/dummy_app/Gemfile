@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+<<<<<<< HEAD
 gem 'rails', '~>3.1.0'
 gem 'json'
 
@@ -15,6 +16,7 @@ gem 'rails_admin', :path => '../../'
 gem 'devise', '~> 1.4'
 gem 'mlb', '~> 0.5.5'
 gem 'paperclip', '~> 2.3.16'
+gem 'carrierwave', '~> 0.5.6'
 
 platforms :jruby, :mingw_18, :ruby_18 do
   gem 'fastercsv', '~> 1.5.4'
